@@ -1,6 +1,58 @@
-<html><head>
-<title>schmitt.studio</title></head>
-<div>
-  <p>hello</p>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schmitt.studio</title>
+    <meta name="description" content="schmitt.studio">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/poole.min.css">
+    <link rel="stylesheet" href="./css/poole.overrides.min.css">
+
+    <noscript>Please enable JavaScript to view this site.</noscript>
+
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div class="container content">
+      <!-- Header -->
+      <header class="masthead">
+        <h3 class="masthead-title">
+        <a href="#" class="sitename" title="Home">
+          schmitt.studio
+        </a>
+        <small class="tagline">
+          landing page
+        </small>
+        </h3>
+        <!-- Navigation -->
+        <nav class="nav">
+          <ul>
+            <li><a href="#/posts">Posts</a></li>
+            <li><a href="https://github.com/schmittstudio" target="_blank">Github</a></li>
+            <li><a href="#/pages/about">About</a></li>
+            <li><a href="#/pages/links">Links</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- CMS -->
+      <div id="cms"></div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <small class="footer-text">
+          thanks for coming
+        </small>
+      </footer>
+    </div>
+
+    <!-- ES5 Polyfills -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.12/es5-shim.min.js"></script>
+    <!-- CMS.js -->
+    <script src="../src/cms.js"></script>
+    <!-- Config -->
+    <script src="./js/config.js"></script>
+  </body>
 </html>
